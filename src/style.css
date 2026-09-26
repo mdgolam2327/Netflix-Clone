@@ -90,12 +90,15 @@ img{
     font-size: 63px;
     align-items: center;
     text-align: center;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero :nth-child(2) {
     margin: 42px 42px -9px;
     font-size: 23px;
     text-align: center;
+    font-weight: 400;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero :nth-child(4) {
@@ -111,6 +114,7 @@ img{
 } */
 
 .int{
+    background-color: transparent;
     color: rgb(157, 155, 152);
     font-size: 20px;
     border: 1px solid white;
@@ -140,4 +144,6 @@ img{
 .top{
     width: 70vw;
     height: 50px;
+    font-size: clamp;
+    font-weight: 900;
 }
