@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width:  100vw;
+    position: relative;
+    background-image: url(/public/images/netflix-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    block-size: cover;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+header div{
+    margin: 10px 50px;
+} ̰
+
+button{
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+button:nth-child(2) {
+    background-color: rgb(215, 25, 25);
+    color: white;
+}
+#sign-btn{
+    border: solid red;
+    border-radius: 5px;
+    margin-left: 9px;
+    font-size: 14.4px;
+    font-style: none;
+    width: 77px;
+    height: 32px;
+}
+
+.bi{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(150, 174, 174);
+    font-size: 15px;
+    width: 125px;
+    height: 32px;
+}
+
+img{
+    margin-top: 14px;
+    margin-left: 40%;
+    color: #ff0043;
+}
+
+.btn{
+    margin-right: 8%;
+    margin-top: 28px;
+}
+
+.hero{
+    color: white;
+    width: 40vw;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.hero :nth-child(1) {
+    margin: 131px;
+    margin-top: -37px;
+    font-family: Helvetica, sans-serif;
+    font-size: 63px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    margin: 42px 42px -9px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.hero :nth-child(4) {
+    margin: 0px -20px;
+    font-size: 16px;
+    
+}
+/* 
+.set{
+    display: flex;
+    justify-content: center;
+
+} */
+
+.int{
+    color: rgb(157, 155, 152);
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 60%;
+    height: 50px;
+    margin-right: 200px;
+    margin-top: -20px;
+    align-items: center;
+    text-align: start;
+}
+
+.start-btn{
+    border: 1px solid #ff0081;
+    border-radius: 26px;
+    background-color: #ff0043;
+    color: white;
+    width: 183px;
+    height: 52px;
+    margin-top: -65px;
+    margin-left: 355px;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+}
+
+.top{
+    width: 70vw;
+    height: 50px;
+}
