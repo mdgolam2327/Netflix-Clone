@@ -99,10 +99,10 @@ button{
     font-size: 16px;
 }
 
-.int{
+.email{
     background-color: transparent;
     color: rgb(157, 155, 152);
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid white;
     border-radius: 10px;
     width: 60%;
@@ -113,14 +113,14 @@ button{
 }
 
 .start-btn{
-    border: 1px solid #ff0081;
+    border: 1px solid linear-gradient(90deg, #7106c3, #d6000b);
     border-radius: 26px;
-    background-color: #ff0043;
+    background: linear-gradient(90deg, #a020ff, #ff0a16);
     color: white;
     width: 183px;
     height: 52px;
-    margin-top: -65px;
-    margin-left: 355px;
+    margin-top: -61px;
+    margin-left: 380px;
     font-size: 28px;
     text-align: center;
 }
@@ -130,3 +130,5 @@ button{
     height: 50px;
     font-weight: 900;
 }
+
+/* ----------------------------------------------------------------------------- */
